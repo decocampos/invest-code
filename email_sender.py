@@ -104,7 +104,7 @@ class EmailSender:
         msg['Subject'] = "[ Oportunidades de Compras ] - Invest Bot"
         msg['From'] = 'avcl@cin.ufpe.br'
         msg['To'] = self.email_to
-        password = 'qubvvfbuqykioaqh' 
+        password = 
         msg.add_header('Content-Type', 'text/html')
         msg.set_payload(corpo_email )
 
